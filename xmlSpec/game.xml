@@ -1,0 +1,312 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Sonic Brawler</title>
+<screenTitle>Brian Justice</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>1800</maxFrames>
+<username>bjjusti</username>
+
+<frameMax>100</frameMax>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>8000</width>
+  <height>546</height>
+</world>
+
+<back>
+  <file>images/sky.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</back>
+
+<middle>
+  <file>images/cityescape.png</file>
+  <factor>3</factor>
+  <transparency>true</transparency>
+</middle>
+
+<front>
+  <file>images/land.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>m
+</front>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<font1 name="font">
+  <file>fonts/arial.ttf</file>
+  <size>12</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font1>
+
+<font2 name="font">
+<file>fonts/arial.ttf</file>
+  <size>12</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font2>
+
+<hud>
+  <x>600</x>
+  <y>0</y>
+  <w>250</w>
+  <h>380</h>
+  <r>255</r>
+  <g>255</g>
+  <b>255</b>
+  <a>255</a>
+</hud>
+
+<warning>
+  <x>200</x>
+  <y>150</y>
+  <w>400</w>
+  <h>200</h>
+  <r>255</r>
+  <g>255</g>
+  <b>255</b>
+  <a>255</a>
+</warning>
+
+<rings>
+  <file>images/rings.png</file>
+  <startLoc x="300" y="25"/>
+  <frames>8</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</rings>
+
+
+<crowNum>35</crowNum>
+<enemyNum>35</enemyNum>
+
+<crow>
+  <file>images/crow.png</file>
+  <startLoc x="1200" y="-150"/>
+  <frames>4</frames>
+  <frameInterval>25</frameInterval>
+  <speedX>-275</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</crow>
+
+<enemy>
+  <file>images/enemy.png</file>
+  <startLoc x="3000" y="450"/>
+  <frames>4</frames>
+  <frameInterval>120</frameInterval>
+  <speedX>-30</speedX>
+  <speedY>-30</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>200</distance>
+  </chunk>
+</enemy>
+
+<boss>
+  <file>images/boss.png</file>
+  <startLoc x="7000" y="450"/>
+  <frames>9</frames>
+  <frameInterval>120</frameInterval>
+  <speedX>100</speedX>
+  <speedY>30</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>200</distance>
+  </chunk>
+</boss>
+
+
+<!--sonic sprites-->
+<sonic>
+  <file>images/sonic_walk.png</file>
+  <startLoc x="40" y="450"/>
+  <frames>8</frames>
+  <frameInterval>7</frameInterval>
+  <minFrameDelay>2.0</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-350</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <strategy>rectangular</strategy>
+</sonic>
+
+<sonic_idle>
+  <file>images/sonic_idle.png</file>
+  <startLoc x="40" y="450"/>
+  <frames>8</frames>
+  <frameInterval>20</frameInterval>
+  <minFrameDelay>0.5</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-350</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <strategy>rectangular</strategy>
+</sonic_idle>
+
+<sonic_p1>
+  <file>images/sonic_p1.png</file>
+  <startLoc x="40" y="450"/>
+  <frames>8</frames>
+  <frameInterval>3</frameInterval>
+  <minFrameDelay>0.5</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-350</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <strategy>rectangular</strategy>
+</sonic_p1>
+
+<sonic_p2>
+  <file>images/sonic_p2.png</file>
+  <startLoc x="40" y="450"/>
+  <frames>8</frames>
+  <frameInterval>5</frameInterval>
+  <minFrameDelay>0.5</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-350</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <strategy>rectangular</strategy>
+</sonic_p2>
+
+<sonic_p3>
+  <file>images/sonic_p3.png</file>
+  <startLoc x="40" y="450"/>
+  <frames>8</frames>
+  <frameInterval>7</frameInterval>
+  <minFrameDelay>0.5</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-350</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <strategy>rectangular</strategy>
+</sonic_p3>
+
+
+<sonic_s>
+  <file>images/sonic_special.png</file>
+  <startLoc x="40" y="450"/>
+  <frames>8</frames>
+  <frameInterval>3</frameInterval>
+  <minFrameDelay>0.5</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-350</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <strategy>rectangular</strategy>
+</sonic_s>
+
+<!--sonic sprites-->
+
+<!--tails sprites-->
+<tails>
+  <file>images/tails_fly.png</file>
+  <bullet>missle</bullet>
+  <startLoc x="40" y="200"/>
+  <frames>8</frames>
+  <frameInterval>15</frameInterval>
+  <minFrameDelay>2.0</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-330</speedX>
+  <speedY>250</speedY>
+  <transparency>true</transparency>
+  <strategy>rectangular</strategy>
+</tails>
+
+<tails_missle>
+  <file>images/tails_missle.png</file>
+  <startLoc x="40" y="200"/>
+  <bullet>missle</bullet>
+  <frames>8</frames>
+  <frameInterval>1</frameInterval>
+  <minFrameDelay>0.5</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-330</speedX>
+  <speedY>250</speedY>
+  <transparency>true</transparency>
+</tails_missle>
+
+<missle> 
+ <file>images/missle.png</file>
+  <startLoc x="40" y="200"/>
+  <interval>300</interval>
+  <distance>320</distance>
+  <frames>5</frames>
+  <frameInterval>150</frameInterval>
+  <minFrameDelay>0.5</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>250</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <strategy>rectangular</strategy>
+</missle>
+
+<!--tails sprites-->
+
+
+
+<!--knuckles sprites-->
+<knuckles>
+  <file>images/knuckles_walk.png</file>
+  <startLoc x="40" y="400"/>
+  <frames>8</frames>
+  <frameInterval>5</frameInterval>
+  <minFrameDelay>2.0</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-340</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+</knuckles>
+
+
+<knuckles_idle>
+  <file>images/knuckles_idle.png</file>
+  <startLoc x="40" y="200"/>
+  <frames>12</frames>
+  <frameInterval>15</frameInterval>
+  <minFrameDelay>1.0</minFrameDelay>
+  <slowDown>0.25</slowDown>
+  <speedX>-350</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</knuckles_idle>
+
+<!--knuckles sprites-->
+
+<!--enemy sprites-->
+
+
+
+
+<!--enemy sprites-->
+
+
+</GameData>
