@@ -7,7 +7,7 @@
 ## How to Run:
 
 1. Clone repository to your local machine.
-2. Via Command line, navigate to directory of which the project has been saved.
+2. Via Command line, navigate to directory in which the project has been saved.
 3. Within this directory run the command "make"
 4. The executable will be named "run", so type "./run" to run the game.
 
